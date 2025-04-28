@@ -11,8 +11,5 @@ export interface Post {
     dislikes: string
   }
   views: number
-}
-
-export interface PostWithUser extends Post {
   author?: User
 }
